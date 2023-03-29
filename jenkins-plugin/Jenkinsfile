@@ -5,7 +5,7 @@ pipeline {
             steps {
                 nodejs('node17') {
                     sh 'npm install'
-                    sh 'npm run start'
+                    sh 'npm run build'
                 }
             }
         }
