@@ -25,3 +25,9 @@
 - Pipeline 항목의 definition에서 Pipeline script from SCM을 선택합니다.
 
 - 배포 자동화 파이프라인을 구축할 깃 레포지토리의 URL을 입력하고 스크립트가 실행될 젠킨스 파일의 경로를 지정해주고 적용시킵니다.
+
+- 젠킨스 파일에 단계 별로 수행될 스크립트 내용을 명시하고 깃 레포지토리에 push 합니다.
+
+- 젠킨스 대시보드에서 빌드를 눌러 성공한 빌드의 콘솔 출력 내용을 확인하면 단계 별로 명시한 명령어가 실행된 것을 볼 수 있습니다.
+
+- ![image](/jenkins-tutorial/jenkins-first-pipeline-as-code.PNG)
